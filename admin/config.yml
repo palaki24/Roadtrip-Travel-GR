@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: palaki24/Roadtrip-Travel-GR
   branch: main
 
 media_folder: "uploads"
