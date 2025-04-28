@@ -1,8 +1,6 @@
 backend:
-  name: auth0
-  domain: dev-uj4ar6kzrbxng5kt.us.auth0.com
-  client_id: X36a5DLYqgbsw1NZ8j1vQUL1vxRoectA
-  redirect_uri: https://roadtrip-travel-gr.netlify.app/admin/
+  name: git-gateway
+  branch: main
 
 media_folder: "uploads"
 public_folder: "/uploads"
@@ -18,4 +16,3 @@ collections:
       - { label: "Ημερομηνία", name: "date", widget: "datetime" }
       - { label: "Περιγραφή", name: "description", widget: "text" }
       - { label: "Κείμενο", name: "body", widget: "markdown" }
-
