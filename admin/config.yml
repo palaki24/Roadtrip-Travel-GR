@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: palaki24/Roadtrip-Travel-GR
+  name: git-gateway
   branch: main
 
 media_folder: "uploads"
@@ -17,3 +16,15 @@ collections:
       - { label: "Ημερομηνία", name: "date", widget: "datetime" }
       - { label: "Περιγραφή", name: "description", widget: "text" }
       - { label: "Κείμενο", name: "body", widget: "markdown" }
+
+local_backend: true
+
+site_url: https://roadtrip-travel-gr.netlify.app
+auth:
+  identity_url: https://roadtrip-travel-gr.netlify.app/.netlify/identity
+  gateway_url: https://roadtrip-travel-gr.netlify.app/.netlify/git
+  backend_login_path: /admin/
+  auth_type: implicit
+  app_id: X36a5DLYqgbsw1NZ8j1vQUL1vxRoectA
+  base_url: https://dev-uj4ar6kzrbxng5kt.us.auth0.com
+  auth_endpoint: authorize
