@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: palaki24/Roadtrip-Travel-GR
   branch: main
+  site_domain: roadtrip-travel-gr.netlify.app
 
 media_folder: "uploads"
 public_folder: "/uploads"
